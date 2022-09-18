@@ -6,6 +6,6 @@ app_name = 'infra_app'
 
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.index, name='/'),
     path('second/', views.second_page, name='second_page'),
 ]
